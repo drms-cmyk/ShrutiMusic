@@ -17,11 +17,11 @@
 # - Selling or using commercially
 #
 # Contact for permissions:
-# Email: badboy809075@gmail.com
+# Email: neethalwa720@gmail.com
 
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-#     ⚙️ CONFIGURATION FILE | Powered By @WTF_WhyMeeh & @ShrutiBots
+#     ⚙️ CONFIGURATION FILE | Powered By @VIP_MusicxBot & @SmartBoy_ApnaMS
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 import os
@@ -39,8 +39,8 @@ API_ID = int(os.getenv("API_ID"))
 API_HASH = os.getenv("API_HASH")
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 OWNER_ID = int(os.getenv("OWNER_ID", None))
-OWNER_USERNAME = os.getenv("OWNER_USERNAME", "WTF_WhyMeeh")
-BOT_USERNAME = os.getenv("BOT_USERNAME", "ShrutixMusicBot")
+OWNER_USERNAME = os.getenv("OWNER_USERNAME", "SmartBoy_ApnaMS")
+BOT_USERNAME = os.getenv("BOT_USERNAME", "VIP_MusicxBot")
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # 🛠️ Database & Deployment Configs
@@ -63,12 +63,12 @@ GIT_TOKEN = os.getenv("GIT_TOKEN", None)
 # 🔗 Support Links
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-SUPPORT_CHANNEL = os.getenv("SUPPORT_CHANNEL", "https://t.me/ShrutiBots")
-SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "https://t.me/ShrutiBotSupport")
+SUPPORT_CHANNEL = os.getenv("SUPPORT_CHANNEL", "https://t.me/NEET_Saathi")
+SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "https://t.me/Neet_Saathi_Counter")
 INSTAGRAM = os.getenv("INSTAGRAM", "https://instagram.com/yaduwanshi_nand")
 YOUTUBE = os.getenv("YOUTUBE", "https://youtube.com/@NandEditz")
 GITHUB = os.getenv("GITHUB", "https://github.com/NoxxOP")
-DONATE = os.getenv("DONATE", "https://t.me/ShrutiBots/91")
+DONATE = os.getenv("DONATE", "https://t.me/NEET_Saathi")
 PRIVACY_LINK = os.getenv("PRIVACY_LINK", "https://graph.org/Privacy-Policy-05-01-30")
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -112,18 +112,18 @@ AUTO_LEAVING_ASSISTANT = bool(os.getenv("AUTO_LEAVING_ASSISTANT", False))
 # 🖼️ Image URLs (Can be customized)
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-START_IMG_URL = os.getenv("START_IMG_URL", "https://files.catbox.moe/7q8bfg.jpg")
-PING_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
-PLAYLIST_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/eehxb4.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/eehxb4.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
+START_IMG_URL = os.getenv("START_IMG_URL", "https://graph.org/file/29dfb41748ec7561eac20-45780a2f354a627bda.jpg")
+PING_IMG_URL = "https://graph.org/file/b9f4ac553ba9975d7310d-ceca3a3be736f769a1.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/3a563ac34a097dfd05748-db44ef6b00fdf45615.jpg"
+STATS_IMG_URL = "https://graph.org/file/d63cb61f334951ef61b1b-9dcace3e89dc0f79fb.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/65bee91f058d5dd83319f-e2758fbd86bd4fb890.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/e7b85af0129633342e319-88358f7442535860fb.jpg"
+STREAM_IMG_URL = "https://graph.org/file/11775f70848825604e558-83e2d0e2b563321ca4.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/fe802bf918ba1828de32a-e82fc2c9af7af46904.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/95d7b9bacbde8cb91b892-e37407d3868445138f.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/443787846a2b43a108d47-9f897aeca88db0801e.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/f94c695f2e8665aab70c7-f6bd332b661f653dc1.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/8cb276fcdb1863e14984d-6f0b70874587011817.jpg"
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # 🔐 User & Bot State Stores
@@ -164,7 +164,7 @@ if SUPPORT_GROUP:
         )
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-#     ✅ CONFIG LOADED SUCCESSFULLY | Designed By @WTF_WhyMeeh
+#     ✅ CONFIG LOADED SUCCESSFULLY | Designed By @VIP_MusicxBot
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 
