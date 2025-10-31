@@ -1,0 +1,55 @@
+services:
+  - type: web
+    name: shruti-music
+    env: python
+    region: oregon
+    plan: free
+    buildCommand: |
+      apt-get update && apt-get install -y ffmpeg
+      pip install -r requirements.txt
+    startCommand: python3 -m ShrutiMusic
+    autoDeploy: true
+
+    envVars:
+      API_ID: 
+        value: 22518279
+      API_HASH: 
+        value: 61e5cc94bc5e6318643707054e54caf4
+      API_KEY:
+        sync: false
+      BOT_TOKEN:
+        sync: false
+      MONGO_DB_URI: 
+        value: mongodb+srv://vipmusicxbot:vipmusicxbot@cluster0.hi60ikl.mongodb.net/?appName=Cluster0
+      OWNER_ID:
+        value: 8056915809
+      OWNER_USERNAME:
+        value: SmartBoy_ApnaMS
+      BOT_USERNAME:
+        value: VIP_MusicxBot
+      UPSTREAM_REPO:
+        value: https://github.com/NoxxOP/ShrutiMusic
+      STRING_SESSION:
+        sync: false
+      GIT_TOKEN:
+        sync: false
+      HEROKU_API_KEY:
+        sync: false
+      HEROKU_APP_NAME:
+        sync: false
+      LOG_GROUP_ID:
+        value: -1002726072681
+      SUPPORT_GROUP:
+        value: https://t.me/Neet_Saathi_Counter
+      SUPPORT_CHANNEL:
+        value: https://t.me/NEET_Saathi
+      INSTAGRAM:
+        value: https://www.instagram.com/smartboy_apnams?igsh=MXJucDJhOTF2b3g1Yg==
+      YOUTUBE:
+        value: https://youtube.com/@smartyms-1?si=Graz2DXs52kq_Mjo
+      GITHUB:
+        value: https://github.com/NoxxOP
+      DONATE:
+        value: https://t.me/NEET_Saathi
+      START_IMG_URL:
+        sync: false
