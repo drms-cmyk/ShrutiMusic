@@ -12,21 +12,21 @@ services:
 
     envVars:
       API_ID: 
-        value: 29448785
+        value: 22518279
       API_HASH: 
-        value: 599574f6aff0a09ebb76305b58e7e9c2
+        value: 61e5cc94bc5e6318643707054e54caf4
       API_KEY:
         sync: false
       BOT_TOKEN:
         sync: false
       MONGO_DB_URI: 
-        value: mongodb+srv://pusers:nycreation@nycreation.pd4klp1.mongodb.net/?retryWrites=true&w=majority&appName=NYCREATION
+        value: mongodb+srv://vipmusicxbot:vipmusicxbot@cluster0.hi60ikl.mongodb.net/?appName=Cluster0
       OWNER_ID:
-        value: 7574330905
+        value: 8056915809
       OWNER_USERNAME:
-        value: WTF_WhyMeeh
+        value: SmartBoy_ApnaMS
       BOT_USERNAME:
-        value: ShrutixMusicBot
+        value: VIP_MusicxBot
       UPSTREAM_REPO:
         value: https://github.com/NoxxOP/ShrutiMusic
       STRING_SESSION:
@@ -38,18 +38,18 @@ services:
       HEROKU_APP_NAME:
         sync: false
       LOG_GROUP_ID:
-        value: -1002321189618
+        value: -1002726072681
       SUPPORT_GROUP:
-        value: https://t.me/ShrutiBotsupport
+        value: https://t.me/Neet_Saathi_Counter
       SUPPORT_CHANNEL:
-        value: https://t.me/ShrutiBots
+        value: https://t.me/NEET_Saathi
       INSTAGRAM:
-        value: https://instagram.com/yaduwanshi_nand
+        value: https://www.instagram.com/smartboy_apnams?igsh=MXJucDJhOTF2b3g1Yg==
       YOUTUBE:
-        value: https://youtube.com/@NandEditz
+        value: https://youtube.com/@smartyms-1?si=Graz2DXs52kq_Mjo
       GITHUB:
         value: https://github.com/NoxxOP
       DONATE:
-        value: https://t.me/ShrutiBots/91
+        value: https://t.me/NEET_Saathi
       START_IMG_URL:
         sync: false
