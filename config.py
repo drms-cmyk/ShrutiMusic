@@ -67,7 +67,7 @@ SUPPORT_CHANNEL = os.getenv("SUPPORT_CHANNEL", "https://t.me/NEET_Saathi")
 SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "https://t.me/Neet_Saathi_Counter")
 INSTAGRAM = os.getenv("INSTAGRAM", "https://www.instagram.com/smartboy_apnams?igsh=MXJucDJhOTF2b3g1Yg==")
 YOUTUBE = os.getenv("YOUTUBE", "https://youtube.com/@smartyms-1?si=Graz2DXs52kq_Mjo")
-GITHUB = os.getenv("GITHUB", "https://github.com/drms-cmyk/ShrutiMusic")
+GITHUB = os.getenv("GITHUB", "https://github.com/NoxxOP")
 DONATE = os.getenv("DONATE", "https://t.me/NEET_Saathi")
 PRIVACY_LINK = os.getenv("PRIVACY_LINK", "https://graph.org/Privacy-Policy-05-01-30")
 
